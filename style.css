@@ -277,3 +277,48 @@ b:hover{
      }
 
 }
+@media only screen and (max-width:425px){
+    .dow{
+        margin: 20px 0 0 130px;
+    }
+    #ease h1{
+        font-size: 70px;
+        font-family: poppins;
+        font-weight: bold;
+        color:rgb(97, 97, 72);
+    } 
+    b{
+        color:rgb(175, 175, 79);
+        cursor: pointer;
+        font-family: cursive;
+        transition: text-shadow 0.5s ease;
+        font-size: 58px;
+    }
+    #support .card-body{
+        background-color: #e6e3e9;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: center;
+        width: 250px;
+        margin-left: 70px;
+    }
+    #service .card-body{
+        margin-left:10%;
+     }
+     .slider img{
+        width:60px;
+        height: 80px;
+        margin-left: 10px;
+    } 
+    body{
+        padding: 0;
+        margin: 0;
+        user-select: none;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+        background-color: aliceblue;
+        overflow-x: hidden;
+    }
+
+}
